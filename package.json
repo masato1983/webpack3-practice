@@ -1,0 +1,12 @@
+{
+  "name": "webpack3-practice",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:masato1983/webpack3-practice.git",
+  "author": "masato1983 <50264750+masato1983@users.noreply.github.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "webpack": "^5.11.0",
+    "webpack-cli": "^4.2.0"
+  }
+}
