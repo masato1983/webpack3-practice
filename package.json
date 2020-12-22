@@ -6,7 +6,10 @@
   "author": "masato1983 <50264750+masato1983@users.noreply.github.com>",
   "license": "MIT",
   "devDependencies": {
+    "@babel/core": "^7.12.10",
+    "@babel/preset-env": "^7.12.11",
     "autoprefixer": "^10.1.0",
+    "babel-loader": "^8.2.2",
     "css-loader": "^5.0.1",
     "file-loader": "^6.2.0",
     "mini-css-extract-plugin": "^1.3.3",
