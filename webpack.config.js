@@ -44,6 +44,10 @@ module.exports = {
           publicPath: 'images'
         },
       },
+      {
+        test: /\.html$/,
+        use: ['html-loader']
+      }
     ],
   },
   plugins: [
