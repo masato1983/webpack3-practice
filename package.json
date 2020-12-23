@@ -5,6 +5,11 @@
   "repository": "git@github.com:masato1983/webpack3-practice.git",
   "author": "masato1983 <50264750+masato1983@users.noreply.github.com>",
   "license": "MIT",
+  "scripts": {
+    "cleanup": "npx rimraf ./public",
+    "dev": "npm run cleanup && npx webpack --config ./webpack.dev.js",
+    "build": "npm run cleanup && npx webpack --config ./webpack.prod.js"
+  },
   "devDependencies": {
     "@babel/core": "^7.12.10",
     "@babel/preset-env": "^7.12.11",
@@ -22,11 +27,13 @@
     "postcss": "^8.2.1",
     "postcss-loader": "^4.1.0",
     "regenerator-runtime": "^0.13.7",
+    "rimraf": "^3.0.2",
     "sass": "^1.30.0",
     "sass-loader": "^10.1.0",
     "style-loader": "^2.0.0",
     "webpack": "^5.11.0",
-    "webpack-cli": "^4.2.0"
+    "webpack-cli": "^4.2.0",
+    "webpack-merge": "^5.7.3"
   },
   "dependencies": {}
 }
