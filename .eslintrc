@@ -9,11 +9,11 @@
     "sourceType": "module"
   },
   "globals": {
+    "utils": "readonly",
     "jQuery": "readonly",
     "$": "readonly"
   },
   "rules": {
-    "no-undef": ["off"],
     "semi": [
       "error",
       "always",
