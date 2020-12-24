@@ -6,6 +6,7 @@ const init = async () => {
   console.log('this is a main js file.');
   await asyncFn();
   jQuery();
+  utils.log('hello from app.js');
 };
 
 async function asyncFn(){
