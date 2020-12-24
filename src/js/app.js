@@ -1,5 +1,5 @@
-import './sub';
-import './app.scss';
+import 'js/sub';
+import '@scss/app';
 // import jQuery from "jquery";
 
 const init = async () => {
