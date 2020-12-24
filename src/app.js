@@ -1,9 +1,11 @@
 import './sub';
 import './app.scss';
+// import jQuery from "jquery";
 
 const init = async () => {
   console.log('this is a main js file.');
   await asyncFn();
+  jQuery();
 };
 
 async function asyncFn(){
