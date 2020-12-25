@@ -1,5 +1,8 @@
-import 'js/sub';
-import '@scss/app';
+setTimeout(() => {
+  import("js/sub");
+  import("@scss/app");
+}, 2000);
+
 // import jQuery from "jquery";
 
 const init = async () => {
