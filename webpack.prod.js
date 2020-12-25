@@ -13,6 +13,21 @@ module.exports = () => merge(commonConf({outputFile, assetFile}), {
     new HtmlWebpackPlugin({
       template: './src/index.html',
       inject: 'body',
+      chunks: ['app'],
+      minify: {
+        collapseWhitespace: true,
+        removeComments: true,
+        removeRedundantAttributes: true,
+        removeScriptTypeAttributes: true,
+        removeStyleLinkTypeAttributes: true,
+        useShortDoctype: true
+      },
+    }),
+    new HtmlWebpackPlugin({
+      template: './src/other.html',
+      filename: 'other.html',
+      inject: 'body',
+      chunks: ['sub'],
       minify: {
         collapseWhitespace: true,
         removeComments: true,
